@@ -1,0 +1,5 @@
+{
+  "name": "Gublox 2014 Revival",
+  "description": "Uma recriação fiel da experiência e interface do Gublox de 2014 com servidores multiplayer reais.",
+  "requestFramePermissions": ["microphone"]
+}

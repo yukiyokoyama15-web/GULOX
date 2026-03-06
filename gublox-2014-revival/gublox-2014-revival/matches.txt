@@ -1,0 +1,29 @@
+./src/components/GubloxLogo.tsx:interface GubloxLogoProps {
+./src/components/GubloxLogo.tsx:export const GubloxLogo: React.FC<GubloxLogoProps> = ({ className = "", variant = 'full', color = 'white' }) => {
+./src/components/GubloxLogo.tsx:          alt="Gublox Logo" 
+./src/components/GubloxLogo.tsx:              <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fill="white" fontSize="80" fontFamily="serif">GUBLoX</text>
+./src/App.tsx:import { GubloxLogo } from './components/GubloxLogo';
+./src/App.tsx:      {/* Gublox Character (Blocky 2014) */}
+./src/App.tsx:  const [gameState, setGameState] = useState<'home' | 'dashboard' | 'playing' | 'avatar' | 'welcome' | 'create_login' | 'create_dashboard' | 'gublox_studio'>('home');
+./src/App.tsx:        {/* Gublox Logo: Right -> Left */}
+./src/App.tsx:          <GubloxLogo className="h-40 md:h-64 drop-shadow-2xl" color="white" />
+./src/App.tsx:            <GubloxLogo className="h-12" color="white" />
+./src/App.tsx:          <h1 className="text-2xl font-bold mb-6 text-center">Login no Gublox Studio</h1>
+./src/App.tsx:          <p className="text-gray-400 text-sm mb-8 text-center">Entre com sua conta do Gublox para começar a criar.</p>
+./src/App.tsx:          <GubloxLogo className="h-6 mr-8" color="white" variant="simple" />
+./src/App.tsx:                  setGameState('gublox_studio');
+./src/App.tsx:                          setGameState('gublox_studio');
+./src/App.tsx:                        Editar no Gublox Studio
+./src/App.tsx:  if (gameState === 'gublox_studio') {
+./src/App.tsx:                <button onClick={handlePublish} className="w-full text-left px-4 py-2 hover:bg-[#00A2FF] flex items-center"><Globe size={12} className="mr-3" /> Publicar no Gublox</button>
+./src/App.tsx:               <div className="text-white/5 opacity-10 text-9xl font-black select-none">GUBLOX STUDIO</div>
+./src/App.tsx:            <GubloxLogo className="h-32 md:h-48 drop-shadow-2xl" />
+./src/App.tsx:            <GubloxLogo className="h-8" variant="simple" color="white" />
+./src/App.tsx:              <GubloxLogo className="h-24 mb-4 animate-pulse" />
+./src/App.tsx:            <div className="opacity-70 mb-1">Sistema: Bem-vindo ao Gublox 2014!</div>
+./metadata.json:  "name": "Gublox 2014 Revival",
+./metadata.json:  "description": "Uma recriação fiel da experiência e interface do Gublox de 2014 com servidores multiplayer reais.",
+./index.html:    <title>Gublox 2014 Revival</title>
+./public/manifest.json:  "name": "Gublox 2014",
+./public/manifest.json:  "description": "A web-based revival of the classic 2014 Gublox experience.",
+./public/manifest.json:  "short_name": "Gublox",
